@@ -1,5 +1,5 @@
-console.log('custom.js ----')
-
-window.addEventListener('DOMContentLoaded', () => {
-    console.log('DOMContentLoaded')
+document.addEventListener('DOMContentLoaded', () => {
+    console.log('555')
+    document.querySelector('body').innerHTML = 'PakePlus'
+    document.querySelector('body').style.backgroundColor = 'skyblue'
 })
